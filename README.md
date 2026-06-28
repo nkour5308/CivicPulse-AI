@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 CivicPulse AI
 
-## Getting Started
+CivicPulse AI is a modern AI-powered civic engagement platform designed to improve communication between citizens and municipal authorities. It enables real-time issue reporting, public alerts, and intelligent dashboards for better governance and transparency.
 
-First, run the development server:
+---
+Open in browser : http://localhost:3000/
+
+## 📌 Overview
+
+CivicPulse AI bridges the gap between citizens and local governance by providing a smart, transparent, and efficient system for civic issue management.
+
+It allows citizens to report problems, track their status, and receive real-time updates while giving municipal authorities a powerful dashboard to manage and resolve issues effectively.
+
+---
+
+## ✨ Features
+
+### 👤 Citizen Side
+- Submit civic complaints (roads, water, electricity, sanitation, etc.)
+- Track complaint status in real-time
+- View public alerts and announcements
+- AI assistant for civic queries
+
+### 🏛️ Municipal Authority Panel
+- Manage citizen complaints
+- Update issue status (pending / in-progress / resolved)
+- Post public notifications
+- View analytics dashboard
+
+### 📢 Public Alerts System
+- Emergency alerts
+- City-wide announcements
+- Real-time notifications
+
+### 🤖 AI Integration
+- Smart civic assistant chatbot
+- Auto-categorization of complaints
+- AI-based insights and suggestions
+
+---
+
+## 🛠️ Tech Stack
+
+- Next.js (App Router)
+- React.js
+- TypeScript
+- Tailwind CSS
+- Node.js (API Routes)
+- AI Integration (API-based / custom model)
+- Database: (MongoDB / Firebase / PostgreSQL – add yours)
+
+---
+
+
+## 🔐 Environment Variables
+
+Create a `.env.local` file in the root directory:
+
+```env
+NEXT_PUBLIC_APP_NAME=CivicPulse AI
+NEXT_PUBLIC_API_URL=http://localhost:3000/api
+```
+
+⚠️ Never push `.env.local` to GitHub
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/nkour/CivicPulse-AI.git
+```
+
+---
+
+### 2. Navigate to project folder
+
+```bash
+cd CivicPulse-AI
+```
+
+---
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+---
+
+### 4. Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+http://localhost:3000
+```
+----
