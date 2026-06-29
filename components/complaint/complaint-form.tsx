@@ -20,6 +20,7 @@ export default function ComplaintForm() {
   issue: form.issue,
   ward: form.ward,
   category: form.category,
+  priority: "Medium",
 });
 
 setGeneratedId(result.id);
