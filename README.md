@@ -5,6 +5,15 @@ CivicPulse AI is a modern AI-powered civic engagement platform designed to impro
 ---
 Open in browser : http://localhost:3000/
 
+## Municipal Authority Portal Login 
+
+Authority ID : MC-1023
+Official email : admin@city.gov.in
+Password : Civic@2026
+
+## Municipal Authority Portal Login:
+
+
 ## 📌 Overview
 
 CivicPulse AI bridges the gap between citizens and local governance by providing a smart, transparent, and efficient system for civic issue management.
